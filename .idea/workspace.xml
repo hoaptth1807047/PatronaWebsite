@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7e98d5a-7d14-494e-8135-b0a8a3a2f2e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BSJQ/Validate-using-JQuery/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/.idea/HPNY-2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/form.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/view.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HPNY-2019/wish-list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML/Form-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/html/homePages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/fff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/.idea/20-10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20-10/mystyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularJS/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularJS/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularJS/jsAngular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Boostrap JQuery/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/Assigment Boostrap JQuery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssigmentBoostrapJQuery/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Form-demo/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/HTML-CSS-JS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/anh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-CSS-JS/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/.idea/HTML-Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/create-song.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/create-song.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/lastest-song.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/latest-song.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/member-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/member-login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/register-member.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/register-member.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Project/sunshine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/.idea/Mp3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mp3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJavascript/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJavascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJavascript/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyJavascript/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Register/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube- advanced/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/Search-my-tube- advanced.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-tube-advanced/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/.idea/Search-my-youtube.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search-my-youtube/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1809E/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1809E/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T1809E/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Table-Demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Table-Demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/Validate-using-JQuery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/anh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validate-using-JQuery/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/.idea/Youtube-t1809E.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Youtube-t1809E/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/.idea/check_my_game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_my_game/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-responstive/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-responstive/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-responstive/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/.idea/modal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/lastest-song.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/latest-song.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modal/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/.idea/object.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/img.jpg/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/img.jpg/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/img.jpg/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/img.jpg/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/img.jpg/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/img.jpg/img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../object/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/.idea/october.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../october/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/.idea/pig_runs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/pig.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pig_runs/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/myJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/style.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/html/homePages.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="379" column="6" lean-forward="true" selection-start-line="379" selection-start-column="6" selection-end-line="379" selection-end-column="6" />
+              <folding>
+                <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/homePages.html" />
+        <option value="$PROJECT_DIR$/public/html/homePages.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="605" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="thumbnail" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/PatronaWebsite" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\PatronaWebsite\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\PatronaWebsite\public\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7e98d5a-7d14-494e-8135-b0a8a3a2f2e1" name="Default Changelist" comment="" />
+      <created>1550481453761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550481453761</updated>
+      <workItem from="1550481455104" duration="2525000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2525000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17514871" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.5509915" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/homePages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/homePages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="379" column="6" lean-forward="true" selection-start-line="379" selection-start-column="6" selection-end-line="379" selection-end-column="6" />
+          <folding>
+            <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
