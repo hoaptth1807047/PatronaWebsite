@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,6 @@
     "bootstrap": "^4.3.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {}
 }
