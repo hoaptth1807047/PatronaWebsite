@@ -5,22 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../public/css/style.css">
-
+    <link rel="stylesheet" href="../../public/css/w3.css">
+    <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
     <script src="../../public/js/script/jquery-3.3.1.slim.min.js"></script>
-    <script src="../../public/js/script/ajaxlibspopper.js1.14.6umdpopper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-    <script src="../../public/js/script/bootstrap4.2.1jsbootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"></script>
-
-
+    <script src="../../public/js/script/ajaxlibspopper.js1.14.6umdpopper.min.js"></script>
+    <script src="../../public/js/script/bootstrap4.2.1jsbootstrap.min.js"></script>
     <style>
         body {
             font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -59,21 +51,16 @@
             font-weight: 400;
             line-height: 16px;
             text-transform: uppercase;
-            background-color: white;
-            height: 60px;
+            background-color: #00b7ff;
             box-shadow: 0 0 18px -4px #000;
         }
 
         #navHome a {
-            color: rgb(34, 34, 34);
+            color: white;
         }
 
         #navHome a:hover {
             color: #165fa5;
-        }
-
-        .navDropdown {
-            font-size: 13px;
         }
 
         .navDropdown a:hover {
@@ -100,6 +87,17 @@
             top: 45px;
         }
 
+        .form-control {
+            height: 50px;
+            border-radius: 2.25rem;
+            border: none;
+            background-color: #d0d4db;
+        }
+
+        .dropdown-menu {
+            background-color: white;
+        }
+
         .jumbotron2 {
             background-color: white;
         }
@@ -112,12 +110,249 @@
             padding-bottom: 20px;
         }
 
-        .jumbotron5 {
-            padding-top: 70px;
+        #footer {
+            background-color: #434343;
+        }
+
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .img-responsive-gallery {
+            display: block;
+            max-width: 100%;
+            height: 482px;
+        }
+
+        .image-holder {
+            overflow: hidden;
+            float: left;
+        }
+
+        #footer {
+            overflow: hidden;
+            padding: 77px 0 20px;
+            color: #999999;
+            background-color: #232323;
+        }
+
+        #footer .footer-logo {
+            width: 130px;
+            margin: 0 0 23px;
+        }
+
+        #footer .abt-txt {
+            font-size: 19px;
+            line-height: 25px;
+            color: #999999;
+            margin: -17px 0 0;
+        }
+
+        #footer .abt-txt p {
+            margin: 0 0 22px;
+        }
+
+        #footer .contact-list {
+            font-size: 19px;
+            line-height: 24px;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        #footer .contact-list li {
+            margin: 0 0 7px;
+        }
+
+        #footer .contact-list li .icon {
+            font-size: 16px;
+            line-height: 26px;
+            margin: 0 6px 0 0;
+        }
+
+        #footer .contact-list a {
+            color: #999999;
+            display: block;
+            -webkit-transition: all 0.25s linear;
+            -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+        }
+
+        #footer .contact-list a:hover {
+            color: #b0c83e;
+        }
+
+        #footer h3 {
+            font-size: 21px;
+            line-height: 25px;
+            color: #fff;
+            margin: 0 0 22px;
+        }
+
+        #footer .info-list {
+            overflow: hidden;
+            margin: 0;
+        }
+
+        #footer .info-list li {
+            margin: 0 0 10px;
+        }
+
+        #footer .info-list li a {
+            color: #999999;
+            -webkit-transition: all 0.25s linear;
+            -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+        }
+
+        #footer .info-list li a:hover {
+            color: #b0c83e;
+        }
+
+        #footer .info-list li .icon {
+            margin: 0 11px 0 0;
+        }
+
+        #footer .insta-list {
+            overflow: hidden;
+            margin: 0;
+            padding: 6px 0 0;
+        }
+
+        #footer .insta-list li {
+            width: 69px;
+            margin: 0 0 6px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #footer {
+            padding: 50px 0;
+        }
+
+        #footer .insta-list {
+            margin: 0 0 20px;
+        }
+
+        #footer .newsletter-form {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #footer .newsletter-form .form-control {
+            font-size: 16px;
+            line-height: 20px;
+            color: #999999;
+            font-style: italic;
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            outline: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background: #fff;
+            padding: 4px 55px 4px 25px;
+            border-radius: 70px;
+        }
+
+        #footer .newsletter-form .submit-btn {
+            position: absolute;
+            top: 3px;
+            right: 5px;
+            width: 42px;
+            height: 42px;
+            color: #fff;
+            font-size: 13px;
+            line-height: 20px;
+            outline: none;
+            border: 1px solid #b0c83e;
+            background: #b0c83e;
+        }
+
+        .round {
+            border-radius: 100%;
         }
 
         .overlay {
-            height: 240px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .overlay:before {
+            position: absolute;
+            content: "";
+            z-index: -1;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .overlayGallery {
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-primary {
+            font: 700 13px/24px 'Nunito', sans-serif;
+            padding: 12px 35px;
+            color: #fff;
+            display: inline-block;
+            vertical-align: top;
+            border: 1px solid #b0c83e;
+            background: #b0c83e;
+            -webkit-transition: all 0.25s linear;
+            -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+        }
+
+        .btn-primary:before {
+            color: #b0c83e;
+            background: none;
+            border: 1px solid #b0c83e;
+        }
+
+        .image-products {
+            opacity: 1;
+            display: block;
+            transition: .5s ease;
+            backface-visibility: visible;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .middle-gallery {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container-products {
+            position: relative;
+        }
+
+        .container-products:hover .image-products {
+            opacity: 0.3;
+        }
+
+        .container-products:hover .middle {
+            opacity: 1;
         }
     </style>
 </head>
@@ -132,12 +367,12 @@
                             <li>
                                 <a href="mailto:petty@support.com" class="icon pull-left">
                                     <i class="fas fa-envelope"
-                                       style="font-size: 40px;text-align: center;margin-right: 8px;margin-top: 8px"></i>
+                                       style="font-size: 35px;text-align: center;margin-right: 7px;margin-top: 12px;color: #00b7ff"></i>
                                 </a>
                                 <div class="align-left pull-left hidden-xs">
-                                    <strong>Mail us:</strong><br>
+                                    <span>Mail us:</span><br>
                                     <p class="icon-phone-call" aria-hidden="true">
-                                        <a href="mailto:petty@support.com">anh000@fpt.edu.vn</a>
+                                        <a href="mailto:petty@support.com" style="color: #898989">anh000@fpt.edu.vn</a>
                                     </p>
                                 </div>
                             </li>
@@ -148,12 +383,12 @@
                             <li>
                                 <a href="tell:0945852000" class="icon pull-left">
                                     <i class="fas fa-phone"
-                                       style="font-size: 40px;text-align: center;margin-right: 8px;margin-top: 8px"></i>
+                                       style="font-size: 35px;text-align: center;margin-right: 7px;margin-top: 12px;color: #00b7ff"></i>
                                 </a>
                                 <div class="align-left pull-left hidden-xs">
-                                    <strong>Tell:</strong><br>
+                                    <span>Tell:</span><br>
                                     <p class="icon-phone-call" aria-hidden="true">
-                                        <a href="tell:0945852000">0945852000</a>
+                                        <a href="tell:0945852000" style="color: #898989">0945852000</a>
                                     </p>
                                 </div>
                             </li>
@@ -166,16 +401,17 @@
                     <div class="col-lg-4 col-xs-4 offset-lg-1 offset-xs-1 social-network">
                         <div class="row" style="font-size: 27px">
                             <div class="col-lg-3 col-xs-3">
-                                <a href="#"><i class="fab fa-google" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-google" aria-hidden="true" style="color: #00b7ff"></i></a>
                             </div>
                             <div class="col-lg-3 col-xs-3">
-                                <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-github" aria-hidden="true" style="color: #00b7ff"></i></a>
                             </div>
                             <div class="col-lg-3 col-xs-3">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true" style="color: #00b7ff"></i></a>
                             </div>
                             <div class="col-lg-3 col-xs-3">
-                                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-instagram" aria-hidden="true"
+                                               style="color: #00b7ff"></i></a>
                             </div>
                         </div>
                     </div>
@@ -185,28 +421,27 @@
                                 <ul class="list-unstyled contact-info">
                                     <a href="#" class="icon pull-left">
                                         <i class="fas fa-user"
-                                           style="font-size: 25px;text-align: center;margin-right: 8px"></i>
+                                           style="font-size: 25px;text-align: center;margin-right: 8px;color: #00b7ff"></i>
                                     </a>
                                     <li>
                                         <div class="align-left pull-left hidden-xs">
-                                            <p class="icon-user" aria-hidden="true">
-                                                <a href="#">Account</a>
-                                            </p>
+                                            <span class="icon-user" aria-hidden="true">
+                                                <a href="#" style="color: black">Account</a>
+                                            </span>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-lg-6 col-xs-6">
                                 <ul class="list-unstyled contact-info">
+                                    <a href="#" class="icon pull-left">
+                                        <i class="fas fa-shopping-cart"
+                                           style="font-size: 25px;text-align: center;margin-right: 8px;color: #00b7ff"></i></a>
                                     <li>
-                                        <a href="#" class="icon pull-left">
-                                            <i class="fas fa-shopping-cart"
-                                               style="font-size: 25px;text-align: center;margin-right: 8px"></i>
-                                        </a>
                                         <div class="align-left pull-left hidden-xs">
-                                            <p class="icon-cart" aria-hidden="true">
-                                                <a href="cart.html">Cart</a>
-                                            </p>
+                                            <span class="icon-cart" aria-hidden="true">
+                                                <a href="cart.html" style="color: black">Cart</a>
+                                            </span>
                                         </div>
                                     </li>
                                 </ul>
@@ -220,39 +455,41 @@
     <nav id="navHome" class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class=" container container-fluid max-width-940" style="color: #0b51c5">
             <a class="navbar-brand" href="homePages.html">
-                <img src="../../public/thumbnail/LogoSample_ByTailorBrands%20(2).jpg" alt="LOGO" width="220px"/>
+                <img src="../../public/thumbnail/f07100c1-344a-4c77-b037-7365c4b04ace.png" alt="LOGO" width="220px"/>
             </a>
             <button class="navbar-toggler togglerNoBorder" type="button" data-toggle="collapse"
                     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse backgroundWhite" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto" style="font-size: 20px;color: #0b51c5">
+            <div class="collapse navbar-collapse backgroundWhite" id="navbarNavDropdown"
+                 style="background-color: #00b7ff">
+                <ul class="navbar-nav ml-auto" style="font-size: 20px">
                     <li class="nav-item active">
-                        <a class="nav-link" href="homePages.html" target="_blank">HOME <span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="homePages.html" target="_blank">HOME </a>
                     </li>
-                    <li class="nav-item dropdown navDropdown" id="navbarDropdowPages" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a class="nav-link dropdown-toggle" href="#" style="font-size: 20px">PAGES</a>
-                        <div class="dropdown-menu navDropdown" aria-labelledby="navbarDropdowPages">
-                            <a class="dropdown-item" href="aboutUs.html" target="_blank" style="font-size: 20px">ABOUT
-                                US</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px">PAGES</a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="aboutUs.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">ABOUT US</a>
                             <a class="dropdown-item" href="gallery.html" target="_blank"
-                               style="font-size: 20px">GALLERY</a>
-                            <a class="dropdown-item" href="checkOut.html" target="_blank" style="font-size: 20px">CHECK
-                                OUT</a>
+                               style="font-size: 20px;color: #00b7ff">GALLERY</a>
+                            <a class="dropdown-item" href="checkOut.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">CHECK OUT</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown navDropdown" id="navbarDropdownShop" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a class="nav-link dropdown-toggle" href="#" style="font-size: 21px">SHOP</a>
-                        <div class="dropdown-menu navDropdown" aria-labelledby="navbarDropdownShop">
-                            <a class="dropdown-item" href="shop.html" target="_blank" style="font-size: 20px">SHOP</a>
-                            <a class="dropdown-item" href="shopDetails.html" target="_blank" style="font-size: 20px">SHOP
-                                DETAILS</a>
-                            <a class="dropdown-item" href="cart.html" target="_blank" style="font-size: 20px">CART</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 21px">SHOP</a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">SHOP</a>
+                            <a class="dropdown-item" href="shopDetails.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">SHOP DETAILS</a>
+                            <a class="dropdown-item" href="cart.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">CART</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -268,16 +505,15 @@
 </header>
 
 
-<div class=" jumbotron-fluid">
+<div class="feature-sec bg-full overlay jumbotron-fluid">
     <div class="containerJumbotron1">
         <img src="../../public/thumbnail/img01.jpg" alt="Responsive image 01" class="img-responsive"
              style="width: 100%;position: relative">
         <div class="centered" style="font-size: 80px;text-shadow:5px 5px 10px black">We will take care of <br
                 class="hidden-xs">
-            your pets <br>
-            <button type="button" class="btn btn-success" id="postComment"
-                    style="border-radius: 2.25em;width: 160px;height: 50px">
-                <a href="contactUs.html" style="color: white;text-decoration: none">CONTACT US</a></button>
+            your pets <br><a class="btn-primary" href="contactUs.html"
+                             style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen">CONTACT
+                US</a>
         </div>
     </div>
 </div>
@@ -290,7 +526,7 @@
                 <h1 style="text-align: center">WELCOME TO PETTY</h1>
                 <br>
                 <div class="icon" style="text-align: center">
-                    <i class="fas fa-bone" style="font-size: 40px;color: whitesmoke"></i>
+                    <i class="fas fa-bone" style="font-size: 40px;color: yellowgreen"></i>
                 </div>
                 <br>
                 <p style="text-align: center;font-size: 20px">It is a long established fact that a reader will be
@@ -344,7 +580,7 @@
 
 
 <div class="jumbotron jumbotron-fluid jumbotron3">
-    <h1 style="text-align: center">What We Do</h1>
+    <h1 style="text-align: center;color: white">What We Do</h1>
     <br>
     <br>
     <div class="container">
@@ -356,11 +592,12 @@
                     </div>
                     <div class="text-wrap center col-lg-7"
                          style="background-color: white;margin-left: -7px;text-align: center">
-                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 23px">
+                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Achieve
                                 <span>Your Targets</span></h4>
                             <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry. Lorem Ipsum</p>
+                            <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
                     </div>
@@ -373,11 +610,12 @@
                     </div>
                     <div class="text-wrap center col-lg-7"
                          style="background-color: white;margin-left: -8px;text-align: center">
-                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 23px">
+                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Stay
                                 <span>Successful</span></h4>
                             <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry. Lorem Ipsum</p>
+                            <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
                     </div>
@@ -390,11 +628,12 @@
                     </div>
                     <div class="text-wrap center col-lg-7"
                          style="background-color: white;margin-left: -7px;text-align: center">
-                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 23px">
+                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Create<span>An Effective Team</span>
                             </h4>
                             <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry. Lorem Ipsum</p>
+                            <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
                     </div>
@@ -407,11 +646,12 @@
                     </div>
                     <div class="text-wrap center col-lg-7"
                          style="background-color: white;margin-left: -8px;text-align: center">
-                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 23px">
+                        <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Launch<span>A Unique Project</span>
                             </h4>
                             <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry. Lorem Ipsum</p>
+                            <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
                     </div>
@@ -421,79 +661,144 @@
     </div>
 </div>
 
+<br>
 
 <div class="jumbotron4 jumbotron-fluid">
     <h1 style="text-align: center">Patrona Shop</h1>
-    <p style="text-align: center">It is a long established fact that a reader will be distracted by the readable content
-        of a page when looking at its layout the point</p>
+    <div class="icon" style="text-align: center">
+        <i class="fas fa-bone" style="font-size: 40px;color: yellowgreen"></i>
+    </div>
+    <br>
+    <p style="text-align: center;font-size: 17px">It is a long established fact that a reader will be distracted by the
+        readable content of a page <br class="hidden-xs"> When looking at its layout the point</p>
+    <br>
     <div class="container">
-        <div class="row jumbotron4CSS">
+        <div class="row jumbotron4CSS" style="text-align: center">
             <div class="col-lg-3">
-                <a href="tell:0945852000" class="icon pull-center">
-                    <i class="fas fa-paw"
-                       style="font-size: 151px;text-align: center;margin-left: 67px;margin-top: 40px"></i>
+                <a href="#" class="icon pull-center">
+                    <i class="fas fa-cat" style="font-size: 90px;color: #cad6c5;"></i>
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="tell:0945852000" class="icon pull-center">
-                    <i class="fas fa-paw"
-                       style="font-size: 151px;text-align: center;margin-left: 67px;margin-top: 40px"></i>
+                <a href="#" class="icon pull-center">
+                    <i class="fas fa-dog" style="font-size: 90px;color: #cad6c5;"></i>
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="tell:0945852000" class="icon pull-center">
-                    <i class="fas fa-paw"
-                       style="font-size: 151px;text-align: center;margin-left: 67px;margin-top: 40px"></i>
+                <a href="#" class="icon pull-center">
+                    <i class="fas fa-dove" style="font-size: 90px;color: #cad6c5;"></i>
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="tell:0945852000" class="icon pull-center">
-                    <i class="fas fa-paw"
-                       style="font-size: 151px;text-align: center;margin-left: 38px;margin-top: 40px"></i>
+                <a href="#" class="icon pull-center">
+                    <i class="fas fa-hamburger" style="font-size: 90px;color: #cad6c5;"></i>
                 </a>
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
 </div>
 
 
-<div class="jumbotron5 jumbotron-fluid">
+<div class="jumbotron-fluid">
     <div class="container">
         <div class="row jumbotron5CSS">
             <div class="col-lg-3" style="padding-right: 10px">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img08.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products" src="../../public/thumbnail/img08.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img09.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products " src="../../public/thumbnail/img09.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img10.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products" src="../../public/thumbnail/img10.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img11.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products" src="../../public/thumbnail/img11.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
         </div>
@@ -502,39 +807,99 @@
     <div class="container">
         <div class="row jumbotron5CSS">
             <div class="col-lg-3" style="padding-right: 10px">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img12.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products" src="../../public/thumbnail/img12.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img13.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products" src="../../public/thumbnail/img13.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img14.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products" src="../../public/thumbnail/img14.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card" style="width: 18rem; border: 0px solid rgba(0,0,0,.125);">
-                    <img class="card-img-top" src="../../public/thumbnail/img15.jpg" alt="Card image cap">
+                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                    <img class="card-img-top image-products" src="../../public/thumbnail/img15.jpg" alt="Card image cap">
+                    <div class="middle">
+                        <div class="row">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                DETAILS
+                            </button>
+                        </div>
+                        <div class="row" style="padding-top: 12px">
+                            <button type="button" class="btn"
+                                    style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
                     <h4 class="card-text" style="text-align: center">Title Products</h4>
-                    <p class="card-number" style="font-size: 20px;font-weight: bold;text-align: center">28.00$</p>
+                    <p class="card-number"
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
                 </div>
             </div>
         </div>
@@ -549,40 +914,41 @@
 <br>
 
 
-<section class="feature-sec bg-full overlay" style="background-image: url(../../public/thumbnail/img16.jpg);filter: blur(4px)">
+<section class="feature-sec bg-full overlay"
+         style="background-image: url(../../public/thumbnail/img16.jpg);width: 100%;height: 360px">
     <div class="container">
-        <div class="row" style="padding-top: 20px">
+        <div class="row" style="padding-top: 75px">
             <div class="col-xs-12 col-sm-4">
-                <div class="feature-col">
-                    <div class="icon round" style="text-align: center;color: #2196F3;font-size: 44px"><i
+                <div class="feature-col" style="color: white">
+                    <div class="icon round" style="text-align: center;color: #2196F3;font-size: 50px"><i
                             class="far fa-bookmark"></i></div>
                     <br>
                     <h3 style="text-align: center">Quality &amp; Caring</h3>
                     <br>
-                    <p>It is a long established fact that a reader <br class="hidden-xs"> distracted by the readable
-                        content</p>
+                    <p style="font-size: 19px">It is a long established fact that a reader <br class="hidden-xs">
+                        distracted by the readable content</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-                <div class="feature-col" style="color: #cad6c5">
-                    <div class="icon round" style="text-align: center;color: #2196F3;font-size: 44px"><i
+                <div class="feature-col" style="color: white">
+                    <div class="icon round" style="text-align: center;color: #2196F3;font-size: 50px"><i
                             class="far fa-check-square"></i></div>
                     <br>
                     <h3 style="text-align: center">Insured &amp; Checked</h3>
                     <br>
-                    <p>It is a long established fact that a reader <br class="hidden-xs"> distracted by the readable
-                        content </p>
+                    <p style="font-size: 19px">It is a long established fact that a reader <br class="hidden-xs">
+                        distracted by the readable content </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4">
-                <div class="feature-col" style="color: #cad6c5">
-                    <div class="icon round" style="text-align: center;color: #2196F3;font-size: 44px"><i
+                <div class="feature-col" style="color: white">
+                    <div class="icon round" style="text-align: center;color: #2196F3;font-size: 50px"><i
                             class="far fa-envelope-open"></i></div>
                     <br>
                     <h3 style="text-align: center">Free Home Consulting</h3>
                     <br>
-                    <p>It is a long established fact that a reader <br class="hidden-xs"> distracted by the readable
-                        content </p>
+                    <p style="font-size: 19px">It is a long established fact that a reader <br class="hidden-xs">
+                        distracted by the readable content </p>
                 </div>
             </div>
         </div>
@@ -592,35 +958,70 @@
 
 <section style="padding-top: 50px">
     <h1 style="text-align: center">Our Gallery</h1>
+    <div class="icon" style="text-align: center">
+        <i class="fas fa-bone" style="font-size: 40px;color: yellowgreen"></i>
+    </div>
     <div class="container" style="padding-top: 50px; padding-bottom: 50px">
         <div class="row">
             <div class="col-lg-4">
-                <img src="../../public/thumbnail/img17.jpg" alt="Responsive image 01" class="img-responsive-gallery"
-                     style="width: 100%;position: relative">
-            </div>
-            <div class="col-lg-4">
-                <div class="row">
-                    <div class="image-holder overlay">
-                        <img src="../../public/thumbnail/img18.jpg" alt="Responsive image 01" class="img-responsive-gallery"
-                             style="width: 363px;height:auto;position: relative">
-                    </div>
-                    <br>
-                    <div class="image-holder overlay">
-                        <img src="../../public/thumbnail/img19.jpg" alt="Responsive image 01" class="img-responsive-gallery"
-                             style="width: 363px;height:auto;position: relative;margin-top: 18px">
+                <div class="container-products">
+                    <img src="../../public/thumbnail/img17.jpg" alt="Responsive image 01"
+                         class="img-responsive-gallery image-products"
+                         style="width: 100%;height: 550px;position: relative">
+                    <div class="middle-gallery">
+                        <div class="row icon" style="text-align: center;padding-top: 12px">
+                            <i class="far fa-search" style="font-size: 40px;color: yellowgreen"></i>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="image-holder overlay">
-                        <img src="../../public/thumbnail/img20.jpg" alt="Responsive image 01" class="img-responsive-gallery"
+                    <div class="image-holder overlayGallery container-products">
+                        <img src="../../public/thumbnail/img18.jpg" alt="Responsive image 01"
+                             class="img-responsive-gallery image-products"
                              style="width: 363px;height:auto;position: relative">
+                        <div class="middle-gallery">
+                            <div class="row icon" style="text-align: center;padding-top: 12px">
+                                <i class="far fa-search" style="font-size: 40px;color: yellowgreen"></i>
+                            </div>
+                        </div>
                     </div>
                     <br>
-                    <div class="image-holder overlay">
-                        <img src="../../public/thumbnail/img21.jpg" alt="Responsive image 01" class="img-responsive-gallery"
+                    <div class="image-holder overlayGallery container-products">
+                        <img src="../../public/thumbnail/img19.jpg" alt="Responsive image 01"
+                             class="img-responsive-gallery image-products"
                              style="width: 363px;height:auto;position: relative;margin-top: 18px">
+                        <div class="middle-gallery">
+                            <div class="row icon" style="text-align: center;padding-top: 12px">
+                                <i class="far fa-search" style="font-size: 40px;color: yellowgreen"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="image-holder overlayGallery container-products">
+                        <img src="../../public/thumbnail/img20.jpg" alt="Responsive image 01"
+                             class="img-responsive-gallery image-products"
+                             style="width: 363px;height:auto;position: relative">
+                        <div class="middle-gallery">
+                            <div class="row icon" style="text-align: center;padding-top: 12px">
+                                <i class="far fa-search" style="font-size: 40px;color: yellowgreen"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="image-holder overlayGallery container-products">
+                        <img src="../../public/thumbnail/img21.jpg" alt="Responsive image 01"
+                             class="img-responsive-gallery image-products"
+                             style="width: 363px;height:auto;position: relative;margin-top: 18px">
+                        <div class="middle-gallery">
+                            <div class="row icon" style="text-align: center;padding-top: 12px">
+                                <i class="far fa-search" style="font-size: 40px;color: yellowgreen"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -628,6 +1029,8 @@
     </div>
 </section>
 
+<br>
+<br>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
      style="background-image: url(../../public/thumbnail/img22.jpg);min-height: 364px;padding: 70px 0 0 ">
@@ -652,28 +1055,28 @@
             </blockquote>
         </div>
         <div class="carousel-item">
-            <h1 style="text-align: center">Slide Two</h1>
+            <h1 style="text-align: center;color: #00bcd4">Slide Two</h1>
             <br>
             <blockquote class="slide text-center">
                 <span class="icon"><i class="icon-comment"></i></span>
-                <q>It is a long established fact that a reader will be distracted by the readable content of <br
-                        class="hidden-xs"> when looking at its layout the point of using Lorem Ipsum is that it has a
-                    more-or-less normal<br class="hidden-xs"> opposed to using content here its making it look like
-                    readable.</q>
+                <q style="color: white;font-size: 20px">It is a long established fact that a reader will be distracted
+                    by the readable content of <br class="hidden-xs"> when looking at its layout the point of using
+                    Lorem Ipsum is that it has a more-or-less normal<br class="hidden-xs"> opposed to using content here
+                    its making it look like readable.</q>
                 <br>
                 <br>
                 <cite class="name" style="font-size: 24px;color: #00bcd4">- Chirstiana Tun -</cite>
             </blockquote>
         </div>
         <div class="carousel-item">
-            <h1 style="text-align: center">Slide Three</h1>
+            <h1 style="text-align: center;color: #00bcd4">Slide Three</h1>
             <br>
             <blockquote class="slide text-center">
                 <span class="icon"><i class="icon-comment"></i></span>
-                <q>It is a long established fact that a reader will be distracted by the readable content of <br
-                        class="hidden-xs"> when looking at its layout the point of using Lorem Ipsum is that it has a
-                    more-or-less normal<br class="hidden-xs"> opposed to using content here its making it look like
-                    readable.</q>
+                <q style="color: white;font-size: 20px">It is a long established fact that a reader will be distracted
+                    by the readable content of <br class="hidden-xs"> when looking at its layout the point of using
+                    Lorem Ipsum is that it has a more-or-less normal<br class="hidden-xs"> opposed to using content here
+                    its making it look like readable.</q>
                 <br>
                 <br>
                 <cite class="name" style="font-size: 24px;color: #00bcd4">- Chirstiana Tun -</cite>
@@ -695,44 +1098,51 @@
 
 <section class="container" style="background-color: white; padding-top: 20px">
     <h1 style="text-align: center">Our Blog</h1>
+    <div class="icon" style="text-align: center">
+        <i class="fas fa-bone" style="font-size: 40px;color: yellowgreen"></i>
+    </div>
     <br>
     <div class="row">
         <div class="col-sx-12 col-sm-4">
             <div class="img-holder overlay" style="background-color: #8ce0ff">
                 <img src="../../public/thumbnail/img23.jpg" alt="img">
-                <a href="#" class="icon round"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <time class="text-uppercase date" datetime="2019-30-1 12:00">mar 19</time>
             </div>
+            <br>
+            <br>
+            <p style="color: #00b7ff;font-size: 17px"><i class="far fa-comments"></i> 34 Comments / by Admin</p>
             <h5 style="text-align: center">All this mistaken idea of denouncing pleasure and praise pain</h5>
         </div>
         <div class="col-sx-12 col-sm-4">
             <div class="img-holder overlay" style="background-color: firebrick">
                 <img src="../../public/thumbnail/img24.jpg" alt="img">
-                <a href="#" class="icon round"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <time class="text-uppercase date" datetime="2019-30-1 12:00">mar 19</time>
             </div>
-            <h5 style="text-align: center">All this mistaken idea of denouncing pleasure and praise pain</h5>
+            <br>
+            <br>
+            <p style="color: #00b7ff;font-size: 17px"><i class="far fa-comments"></i> 16 Comments / by Admin</p>
+            <h5 style="text-align: center">But because occasionally circumstan occur in which toil and pain</h5>
         </div>
         <div class="col-sx-12 col-sm-4">
             <div class="img-holder overlay" style="background-color: green">
                 <img src="../../public/thumbnail/img25.jpg" alt="img">
-                <a href="#" class="icon round"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <time class="text-uppercase date" datetime="2019-30-1 12:00">mar 19</time>
             </div>
-            <h5 style="text-align: center">All this mistaken idea of denouncing pleasure and praise pain</h5>
+            <br>
+            <br>
+            <p style="color: #00b7ff;font-size: 17px"><i class="far fa-comments"></i> 23 Comments / by Admin</p>
+            <h5 style="text-align: center">There anyone who loves or pursues or desires to obtain pain of itself</h5>
         </div>
     </div>
 </section>
 
 
-<section class="container" style="margin-top: 100px; background-color: darkslateblue; height: 120px">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6">
-            <h3 style="color: white">Get 50% offer for all pet products</h3>
-        </div>
-        <div class="col-xs-12 col-sm-3"></div>
-        <div class="col-xs-12 col-sm-3">
-            <p style="color: white">Coupon Code: PATRONA1234</p>
+<section class="codeSale" style="margin-top: 100px; background-image: url(../../public/thumbnail/img26.jpg);height: 120px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" style="padding-top: 35px">
+                <h2 style="color: white">Get 50% offer for all pet products</h2>
+            </div>
+            <div class="col-lg-4 offset-lg-2" style="padding-top: 40px">
+                <h4 style="color: white">Coupon Code: PATRONA1234</h4>
+            </div>
         </div>
     </div>
 </section>
@@ -741,11 +1151,11 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-4 about-txt">
+            <div class="col-xs-12 col-sm-4 abt-txt">
                 <div class="footer-logo">
                     <a href="#">
-                        <img src="../../public/thumbnail/LogoSample_ByTailorBrands (2).jpg" alt="Patrona Pet" height="71" width="279"
-                             class="img-responsive">
+                        <img src="../../public/thumbnail/f07100c1-344a-4c77-b037-7365c4b04ace.png" alt="LOGO Patrona Pet"
+                             style="height: 65px;width: 249px"/>
                     </a>
                 </div>
                 <p>
@@ -868,7 +1278,6 @@
                 <h3>Newsletter</h3>
                 <div class="newsletter" style="font-size: 19px">
                     <p>It is a long established fact that a by
-                        <br class="hidden-xs">
                         the readable content
                     </p>
                     <form class="newsletter-form" action="#">

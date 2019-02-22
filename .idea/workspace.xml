@@ -15,22 +15,617 @@
       <change afterPath="$PROJECT_DIR$/../HPNY-2019/view.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HPNY-2019/wish-list.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HTML/Form-demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/categoryController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/productController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/userController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/client/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/client/register.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/w3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/script/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/script/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/script/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/thumbnail/LogoSample_ByTailorBrands (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/applicationRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/img62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/.idea/PatronaWebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/controller/categoryController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/controller/productController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/controller/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/.bin/mime" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/.bin/mime.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/accepts/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/accepts/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/accepts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/accepts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/accepts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/array-flatten/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/array-flatten/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/array-flatten/array-flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/array-flatten/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/lib/types/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/body-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/alert.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/button.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/carousel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/collapse.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/dropdown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/modal.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/popover.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/scrollspy.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/tab.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/toast.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/tooltip.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/dist/util.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/tools/sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/js/src/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bytes/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bytes/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bytes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/bytes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-disposition/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-disposition/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-disposition/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-disposition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-disposition/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-type/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie-signature/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie-signature/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie-signature/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie-signature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/.coveralls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/src/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/src/inspector-log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/debug/src/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/destroy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/destroy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/destroy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/destroy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ee-first/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ee-first/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ee-first/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ee-first/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/Jakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/ejs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/lib/ejs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ejs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/encodeurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/encodeurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/encodeurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/encodeurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/encodeurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/escape-html/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/escape-html/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/escape-html/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/escape-html/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/etag/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/etag/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/etag/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/etag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/etag/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/express/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/finalhandler/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/finalhandler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/finalhandler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/finalhandler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/finalhandler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/forwarded/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/forwarded/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/forwarded/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/forwarded/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/forwarded/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/fresh/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/fresh/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/fresh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/fresh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/fresh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/cp949.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/cp950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/eucjp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ipaddr.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ipaddr.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/media-typer/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/media-typer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/media-typer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/media-typer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/media-typer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/merge-descriptors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/merge-descriptors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/merge-descriptors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/merge-descriptors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/methods/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/methods/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/methods/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/methods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/methods/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-types/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/build/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/mime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/mime/types.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/lib/charset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/lib/encoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/lib/language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/lib/mediaType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/negotiator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/parseurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/parseurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/parseurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/parseurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/parseurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/path-to-regexp/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/path-to-regexp/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/path-to-regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/proxy-addr/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/proxy-addr/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/lib/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/range-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/range-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/range-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/range-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/range-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/raw-body/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/raw-body/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/raw-body/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/raw-body/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/raw-body/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safer-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safer-buffer/Porting-Buffer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safer-buffer/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safer-buffer/dangerous.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safer-buffer/safer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/safer-buffer/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/send/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/send/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/send/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/send/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/send/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/serve-static/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/serve-static/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/serve-static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/serve-static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/serve-static/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/setprototypeof/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/type-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/type-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/unpipe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/unpipe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/unpipe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/unpipe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/utils-merge/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/utils-merge/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/utils-merge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/utils-merge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/utils-merge/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/vary/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/vary/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/vary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/vary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/node_modules/vary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/pages/client/homePages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/pages/client/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/pages/client/register.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/css/w3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/css&amp;font/ajaxlibsfont-awesome4.7.0cssfont-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/css&amp;font/bootstrap4.3.1cssbootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/css&amp;font/releasesv5.6.1cssall.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/css&amp;font/w3css4w3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/script/ajaxlibspopper.js1.14.6umdpopper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/script/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/script/bootstrap4.2.1jsbootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/script/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/script/jquery-3.3.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/js/script/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/2e976af2-e904-4b02-bf04-7ec2918b2014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/93ba991e-00c7-424f-9ed3-b09ee263624d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/LogoSample_ByTailorBrands (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/b7ecdb15-3b9e-4ffc-8c10-7efd970c704d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/bad0320a-f4cd-4616-83fa-145335f6330b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/f07100c1-344a-4c77-b037-7365c4b04ace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/public/thumbnail/img62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project/PatronaWebsite/router/applicationRouter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/fff.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20-10/.idea/20-10.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../20-10/.idea/misc.xml" beforeDir="false" />
@@ -114,10 +709,14 @@
       <change beforePath="$PROJECT_DIR$/../MyJavascript/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyJavascript/myjs.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyJavascript/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/homePages.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/client/homePages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatronaWebsite/node_modules/ejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PatronaWebsite/node_modules/ejs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatronaWebsite/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/PatronaWebsite/node_modules/qs/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatronaWebsite/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/PatronaWebsite/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatronaWebsite/node_modules/safer-buffer/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/PatronaWebsite/node_modules/safer-buffer/tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatronaWebsite/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PatronaWebsite/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatronaWebsite/public/css/w3.css" beforeDir="false" afterPath="$PROJECT_DIR$/PatronaWebsite/public/css/w3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatronaWebsite/public/js/css&amp;font/w3css4w3.css" beforeDir="false" afterPath="$PROJECT_DIR$/PatronaWebsite/public/js/css&amp;font/w3css4w3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Register/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Register/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Register/myjs.js" beforeDir="false" />
@@ -246,7 +845,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/client/homePages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9462">
+            <state relative-caret-position="5709">
               <caret line="863" column="23" selection-start-line="863" selection-start-column="23" selection-end-line="863" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -271,30 +870,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="158">
               <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router/applicationRouter.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/controller/userController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/userController.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/client/login.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="7" selection-start-line="43" selection-end-line="43" selection-end-column="7" />
+            <state relative-caret-position="541">
+              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/client/register.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -306,6 +913,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -318,21 +926,23 @@
         <option value="$PROJECT_DIR$/public/homePages.html" />
         <option value="$PROJECT_DIR$/public/html/homePages.html" />
         <option value="$PROJECT_DIR$/pages/client/homePages.html" />
-        <option value="$PROJECT_DIR$/router/applicationRouter.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/controller/categoryController.js" />
         <option value="$PROJECT_DIR$/controller/productController.js" />
-        <option value="$PROJECT_DIR$/controller/userController.js" />
         <option value="$PROJECT_DIR$/pages/client/register.ejs" />
+        <option value="$PROJECT_DIR$/pages/client/login.html" />
+        <option value="$PROJECT_DIR$/router/applicationRouter.js" />
+        <option value="$PROJECT_DIR$/pages/client/register.html" />
+        <option value="$PROJECT_DIR$/controller/userController.js" />
         <option value="$PROJECT_DIR$/pages/client/login.ejs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="972" />
-    <option name="width" value="950" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -346,58 +956,6 @@
             <path>
               <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="css&amp;font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatronaWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatronaWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,18 +1010,17 @@
       <workItem from="1550560163892" duration="1326000" />
       <workItem from="1550570764193" duration="3874000" />
       <workItem from="1550801830580" duration="458000" />
-      <workItem from="1550802303797" duration="3072000" />
+      <workItem from="1550802303797" duration="7628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12029000" />
+    <option name="totallyTimeSpent" value="16585000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="0" width="1238" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3355537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20489095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,12 +1032,31 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5495751" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5424929" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.041493777" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5487106" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -500,9 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PatronaWebsite/public/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -512,54 +1085,6 @@
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/categoryController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/productController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/userController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/client/homePages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9462">
-          <caret line="863" column="23" selection-start-line="863" selection-start-column="23" selection-end-line="863" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/applicationRouter.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/client/register.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -584,10 +1109,75 @@
         <state relative-caret-position="-1881" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/router/applicationRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/categoryController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/productController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/client/homePages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5709">
+          <caret line="863" column="23" selection-start-line="863" selection-start-column="23" selection-end-line="863" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/client/login.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="7" selection-start-line="43" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="541">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/client/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
