@@ -290,6 +290,16 @@
             background: rgba(0, 0, 0, 0.6);
         }
 
+        .overlayBlog:before {
+            position: absolute;
+            content: "";
+            z-index: -1;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+        }
+
         .overlayGallery {
             position: relative;
             z-index: 1;
@@ -357,7 +367,7 @@
     </style>
 </head>
 <body>
-<header id="header">
+<header id="header" class="sticky-top">
     <div class="container header-area" style="margin-top: 15px; font-size: 20px">
         <div class="row">
             <div class="col-lg-6 col-xs-6">
@@ -426,7 +436,134 @@
                                     <li>
                                         <div class="align-left pull-left hidden-xs">
                                             <span class="icon-user" aria-hidden="true">
-                                                <a href="#" style="color: black">Account</a>
+                                                <a href="#" style="color: black" data-toggle="modal"
+                                                   data-target="#exampleModalCenter">Account</a>
+                                                <div class="modal fade" id="exampleModalCenter" tabindex="-1"
+                                                     role="dialog" aria-labelledby="exampleModalCenterTitle"
+                                                     aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header" style="text-align: center">
+                                                                <h4 class="modal-title" id="exampleModalLongTitle">CONNECT WITH US</h4>
+                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                        aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <ul class="nav nav-tabs">
+                                                                    <li class="active"><a data-toggle="tab"
+                                                                                          href="#logIn"><h4>LOG IN</h4></a></li> &nbsp; | &nbsp;
+                                                                    <li><a data-toggle="tab"
+                                                                           href="#createAnAccount"><h4>CREATE AN ACCOUNT</h4></a></li>
+                                                                </ul>
+                                                                <div class="tab-content">
+                                                                    <div id="logIn" class="tab-pane active">
+                                                                        <form name="login-form" id="login-form">
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputEmail1">Email</label>
+                                                                                <input type="email" name="email"
+                                                                                       class="form-control"
+                                                                                       id="exampleInputEmail1"
+                                                                                       aria-describedby="emailHelp"
+                                                                                       placeholder="Enter Email">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputPassword1">Password</label>
+                                                                                <input type="password" name="password"
+                                                                                       class="form-control"
+                                                                                       id="exampleInputPassword1"
+                                                                                       placeholder="Enter Password">
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input type="checkbox"
+                                                                                       class="form-check-input"
+                                                                                       id="exampleCheck1"
+                                                                                       style="margin-top: 10px">
+                                                                                <label class="form-check-label"
+                                                                                       for="exampleCheck1">Remember Me</label>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <label>&nbsp;</label>
+                                                                                <button type="reset"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-reset" value="Reset"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 220px;text-align: center">Reset</button>
+                                                                                <button type="submit"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-create" value="Login"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 221px;text-align: center">Login</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div id="createAnAccount" class="tab-pane fade">
+                                                                        <form name="create-form" id="create-form">
+                                                                            <div class="form-group">
+                                                                                <label>First Name</label>
+                                                                                <input type="text" name="firstName"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter First Name">
+                                                                            </div>
+                                                                               <div class="form-group">
+                                                                                <label>Last Name</label>
+                                                                                <input type="text" name="lastName"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter Last Name">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputEmail1">Email</label>
+                                                                                <input type="email" name="email"
+                                                                                       class="form-control"
+                                                                                       aria-describedby="emailHelp"
+                                                                                       placeholder="Enter Email">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputPassword1">Password</label>
+                                                                                <input type="password" name="password"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter Password">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputPassword1">Confirm Password</label>
+                                                                                <input type="password"
+                                                                                       name="confirm-password"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter Confirm Password">
+                                                                            </div>
+                                                                               <div class="form-group">
+                                                                                <label>Phone</label>
+                                                                                <label>
+                                                                                    <input class="form-control"
+                                                                                           type="text" name="phone"
+                                                                                           placeholder="Enter Phone Number">
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label>Address</label>
+                                                                                <label>
+                                                                                    <input class="form-control"
+                                                                                           type="text" name="address"
+                                                                                           placeholder="Enter Address">
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <label>&nbsp;</label>
+                                                                                <button type="reset"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-reset" value="Reset"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 221px;text-align: center">Reset</button>
+                                                                                <button type="submit"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-create" value="Create"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 220px;text-align: center">Create</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </span>
                                         </div>
                                     </li>
@@ -452,7 +589,9 @@
             </div>
         </div>
     </div>
-    <nav id="navHome" class="navbar navbar-expand-lg navbar-light sticky-top">
+
+
+    <nav id="navHome" class="navbar navbar-expand-lg navbar-light ">
         <div class=" container container-fluid max-width-940" style="color: #0b51c5">
             <a class="navbar-brand" href="homePages.html">
                 <img src="../../public/thumbnail/f07100c1-344a-4c77-b037-7365c4b04ace.png" alt="LOGO" width="220px"/>
@@ -510,9 +649,9 @@
         <img src="../../public/thumbnail/img01.jpg" alt="Responsive image 01" class="img-responsive"
              style="width: 100%;position: relative">
         <div class="centered" style="font-size: 80px;text-shadow:5px 5px 10px black">We will take care of <br
-                class="hidden-xs">
-            your pets <br><a class="btn-primary" href="contactUs.html"
-                             style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen">CONTACT
+                class="hidden-xs">your pets <br>
+            <a class="btn-primary" href="contactUs.html"
+               style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen">CONTACT
                 US</a>
         </div>
     </div>
@@ -529,11 +668,21 @@
                     <i class="fas fa-bone" style="font-size: 40px;color: yellowgreen"></i>
                 </div>
                 <br>
-                <p style="text-align: center;font-size: 20px">It is a long established fact that a reader will be
-                    distracted by the readable
-                    content of a page when looking at its layout the point of using Lorem Ipsum is that it
-                    has a more-or-less normal distribution of letters as opposed to using content here
-                    its making it look like readable.
+                <p style="text-align: center;font-size: 20px">Serving VietNam Since 2000
+                    Family owned for more than 18 years
+                    Our staff is professional and experienced. We are a one-stop-shop! From fins to feathers and
+                    everything in between.
+                    <br>
+                    A pleasant experience awaits.
+                    <br>
+                    Our Business History <br>
+                    Established in 2000, our store moved from 56 Hang Voi (Hoan Kiem, Ha Noi, Viet Nam) to just around
+                    the corner to 8 Ton That Thuyet (My Dinh, Nam Tu Liem, Ha Noi, Viet Nam). Patrona Shop grew from 600
+                    sq. ft. to just over 2100 sq. ft.
+                    <br>
+                    Contact us today at 0945852000 to find out how we can help you. It's our pleasure!
+                    <br>
+                    Thank you for your patronage!
                 </p>
                 <br>
                 <hr>
@@ -595,8 +744,10 @@
                         <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Achieve
                                 <span>Your Targets</span></h4>
-                            <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
-                                printing and typesetting industry. Lorem Ipsum</p>
+                            <p class="mbr-fonts-style mbr-text display-6">Our top goal is to provide all the best
+                                conditions for your pet. <br>
+                                We provide all care equipment as well as services...
+                            </p>
                             <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
@@ -613,8 +764,12 @@
                         <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Stay
                                 <span>Successful</span></h4>
-                            <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
-                                printing and typesetting industry. Lorem Ipsum</p>
+                            <p class="mbr-fonts-style mbr-text display-6">
+                                Taking care of and protecting your pet has
+                                never been easy... <br>
+                                Come with us for your pet to have the best care! <br>
+                                ...
+                            </p>
                             <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
@@ -631,8 +786,9 @@
                         <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Create<span>An Effective Team</span>
                             </h4>
-                            <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
-                                printing and typesetting industry. Lorem Ipsum</p>
+                            <p class="mbr-fonts-style mbr-text display-6">Join friends all over the world to share your
+                                knowledge and experience in caring for your dog, exchanging ...
+                            </p>
                             <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
@@ -649,8 +805,10 @@
                         <div class="col-lg-10 col-xs-10 offset-xl-1 offset-lg-1" style="margin-top: 12px">
                             <h4 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Launch<span>A Unique Project</span>
                             </h4>
-                            <p class="mbr-fonts-style mbr-text display-6">Lorem Ipsum is simply dummy text of the
-                                printing and typesetting industry. Lorem Ipsum</p>
+                            <p class="mbr-fonts-style mbr-text display-6">Join our project to know how to take care of
+                                your pet. <br>
+                                If you join us, you will be able to ...
+                            </p>
                             <a href="blog.html" style="color: #007bff;font-weight: bold">READ MORE</a>
                         </div>
                         <div class="col-lg-1 col-xs-1"></div>
@@ -669,8 +827,7 @@
         <i class="fas fa-bone" style="font-size: 40px;color: yellowgreen"></i>
     </div>
     <br>
-    <p style="text-align: center;font-size: 17px">It is a long established fact that a reader will be distracted by the
-        readable content of a page <br class="hidden-xs"> When looking at its layout the point</p>
+    <p style="text-align: center;font-size: 17px"> Dogs are not our whole life, but they make our lives whole.</p>
     <br>
     <div class="container">
         <div class="row jumbotron4CSS" style="text-align: center">
@@ -724,9 +881,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Pawbits Joint</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$134.00</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
@@ -748,9 +905,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Vitamin K2</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$28.00</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
@@ -772,9 +929,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Maxiflex+</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$28.00</p>
                 </div>
             </div>
             <div class="col-lg-3">
@@ -796,9 +953,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Premier Pet+</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$42.00</p>
                 </div>
             </div>
         </div>
@@ -825,9 +982,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Calcium Pills</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$30.00</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
@@ -849,9 +1006,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Vitamin D3</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$42.00</p>
                 </div>
             </div>
             <div class="col-lg-3" style="padding-right: 10px">
@@ -873,13 +1030,13 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Pets Puries</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$28.00</p>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                <div class="card container-products" style="width: 18rem; border: 0 solid rgba(0,0,0,.125)">
                     <img class="card-img-top image-products" src="../../public/thumbnail/img15.jpg" alt="Card image cap">
                     <div class="middle">
                         <div class="row">
@@ -897,9 +1054,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-text" style="text-align: center">Title Products</h4>
+                    <h4 class="card-text" style="text-align: center">Nutri-Pooch</h4>
                     <p class="card-number"
-                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">28.00$</p>
+                       style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$58.00</p>
                 </div>
             </div>
         </div>
@@ -925,8 +1082,7 @@
                     <br>
                     <h3 style="text-align: center">Quality &amp; Caring</h3>
                     <br>
-                    <p style="font-size: 19px">It is a long established fact that a reader <br class="hidden-xs">
-                        distracted by the readable content</p>
+                    <p style="font-size: 19px">Provide conditions for your dog to get the best care.</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4">
@@ -936,8 +1092,7 @@
                     <br>
                     <h3 style="text-align: center">Insured &amp; Checked</h3>
                     <br>
-                    <p style="font-size: 19px">It is a long established fact that a reader <br class="hidden-xs">
-                        distracted by the readable content </p>
+                    <p style="font-size: 19px">Committed to providing insurance services for your pet.</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4">
@@ -947,15 +1102,14 @@
                     <br>
                     <h3 style="text-align: center">Free Home Consulting</h3>
                     <br>
-                    <p style="font-size: 19px">It is a long established fact that a reader <br class="hidden-xs">
-                        distracted by the readable content </p>
+                    <p style="font-size: 19px">The common house for dogs everywhere! </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
+<!--icon search hiển thị chưa hiển thị đc-->
 <section style="padding-top: 50px">
     <h1 style="text-align: center">Our Gallery</h1>
     <div class="icon" style="text-align: center">
@@ -982,7 +1136,7 @@
                              class="img-responsive-gallery image-products"
                              style="width: 363px;height:auto;position: relative">
                         <div class="middle-gallery">
-                            <div class="row icon" style="text-align: center;padding-top: 12px">
+                            <div class="row" style="text-align: center;padding-top: 12px">
                                 <i class="far fa-search" style="font-size: 40px;color: yellowgreen"></i>
                             </div>
                         </div>
@@ -993,7 +1147,7 @@
                              class="img-responsive-gallery image-products"
                              style="width: 363px;height:auto;position: relative;margin-top: 18px">
                         <div class="middle-gallery">
-                            <div class="row icon" style="text-align: center;padding-top: 12px">
+                            <div class="row" style="text-align: center;padding-top: 12px">
                                 <i class="far fa-search" style="font-size: 40px;color: yellowgreen"></i>
                             </div>
                         </div>
@@ -1041,45 +1195,41 @@
     </ol>
     <div class="carousel-inner" style="padding-bottom: 20px">
         <div class="carousel-item active">
-            <h1 style="text-align: center;color: #00bcd4">Slide One</h1>
+            <h1 style="text-align: center;color: #00bcd4">Quote</h1>
             <br>
             <blockquote class="slide text-center">
                 <span class="icon"><i class="icon-comment"></i></span>
-                <q style="color: white;font-size: 20px">It is a long established fact that a reader will be distracted
-                    by the readable content of <br class="hidden-xs"> when looking at its layout the point of using
-                    Lorem Ipsum is that it has a more-or-less normal<br class="hidden-xs"> opposed to using content here
-                    its making it look like readable.</q>
+                <q style="color: white">It came to me that every time I lose a dog they take a piece of my heart with
+                    them, and every new dog who comes into my life gifts me with a piece of their heart.
+                    <br class="hidden-xs"> If I live long enough, all the components of my heart will be dog,
+                    <br class="hidden-xs"> and I will become as generous and loving as they are.</q>
                 <br>
                 <br>
-                <cite class="name" style="font-size: 24px;color: #00bcd4">- Chirstiana Tun -</cite>
+                <cite class="name" style="font-size: 24px;color: #b0c83e">Unknown</cite>
             </blockquote>
         </div>
         <div class="carousel-item">
-            <h1 style="text-align: center;color: #00bcd4">Slide Two</h1>
+            <h1 style="text-align: center; color: #00bcd4">Quote</h1>
             <br>
             <blockquote class="slide text-center">
                 <span class="icon"><i class="icon-comment"></i></span>
-                <q style="color: white;font-size: 20px">It is a long established fact that a reader will be distracted
-                    by the readable content of <br class="hidden-xs"> when looking at its layout the point of using
-                    Lorem Ipsum is that it has a more-or-less normal<br class="hidden-xs"> opposed to using content here
-                    its making it look like readable.</q>
+                <q style="color: white">The world would be a nicer place if everyone had the ability to love as
+                    unconditionally as a dog.</q>
                 <br>
                 <br>
-                <cite class="name" style="font-size: 24px;color: #00bcd4">- Chirstiana Tun -</cite>
+                <cite class="name" style="font-size: 24px;color: #b0c83e">- M. K. Clinton -</cite>
             </blockquote>
         </div>
         <div class="carousel-item">
-            <h1 style="text-align: center;color: #00bcd4">Slide Three</h1>
+            <h1 style="text-align: center; color: #00bcd4">Quote</h1>
             <br>
             <blockquote class="slide text-center">
                 <span class="icon"><i class="icon-comment"></i></span>
-                <q style="color: white;font-size: 20px">It is a long established fact that a reader will be distracted
-                    by the readable content of <br class="hidden-xs"> when looking at its layout the point of using
-                    Lorem Ipsum is that it has a more-or-less normal<br class="hidden-xs"> opposed to using content here
-                    its making it look like readable.</q>
+                <q style="color: white">A dog will teach you unconditional love.
+                    <br class="hidden-xs"> If you can have that in your life, things won’t be too bad.</q>
                 <br>
                 <br>
-                <cite class="name" style="font-size: 24px;color: #00bcd4">- Chirstiana Tun -</cite>
+                <cite class="name" style="font-size: 24px;color: #b0c83e">- Robert Wagner -</cite>
             </blockquote>
         </div>
     </div>
@@ -1102,33 +1252,37 @@
         <i class="fas fa-bone" style="font-size: 40px;color: yellowgreen"></i>
     </div>
     <br>
+    <br>
     <div class="row">
         <div class="col-sx-12 col-sm-4">
-            <div class="img-holder overlay" style="background-color: #8ce0ff">
+            <div class="img-holder overlayBlog">
                 <img src="../../public/thumbnail/img23.jpg" alt="img">
             </div>
             <br>
             <br>
             <p style="color: #00b7ff;font-size: 17px"><i class="far fa-comments"></i> 34 Comments / by Admin</p>
-            <h5 style="text-align: center">All this mistaken idea of denouncing pleasure and praise pain</h5>
+            <h5 style="text-align: center">
+                If there are no dogs in Heaven,
+                <br class="hidden-xs">
+                then when I die I want to go where they went.</h5>
         </div>
         <div class="col-sx-12 col-sm-4">
-            <div class="img-holder overlay" style="background-color: firebrick">
+            <div class="img-holder overlayBlog">
                 <img src="../../public/thumbnail/img24.jpg" alt="img">
             </div>
             <br>
             <br>
             <p style="color: #00b7ff;font-size: 17px"><i class="far fa-comments"></i> 16 Comments / by Admin</p>
-            <h5 style="text-align: center">But because occasionally circumstan occur in which toil and pain</h5>
+            <h5 style="text-align: center">Let your children love animals!</h5>
         </div>
         <div class="col-sx-12 col-sm-4">
-            <div class="img-holder overlay" style="background-color: green">
+            <div class="img-holder overlayBlog">
                 <img src="../../public/thumbnail/img25.jpg" alt="img">
             </div>
             <br>
             <br>
             <p style="color: #00b7ff;font-size: 17px"><i class="far fa-comments"></i> 23 Comments / by Admin</p>
-            <h5 style="text-align: center">There anyone who loves or pursues or desires to obtain pain of itself</h5>
+            <h5 style="text-align: center">Here are my tips to improve your dog’s diet today…</h5>
         </div>
     </div>
 </section>
@@ -1159,9 +1313,8 @@
                     </a>
                 </div>
                 <p>
-                    It is a long established fact that a reader
-                    <br class="hidden-xs">
-                    distracted by the readable content</p>
+                    A dog is the only thing on Earth that loves you more than he loves himself.
+                </p>
                 <ul class="contact-list list-unstyled">
                     <li>
                         <span class="icon">
@@ -1277,8 +1430,7 @@
             <div class="col-xs-12 col-sm-3">
                 <h3>Newsletter</h3>
                 <div class="newsletter" style="font-size: 19px">
-                    <p>It is a long established fact that a by
-                        the readable content
+                    <p> Dogs are not our whole life, but they make our lives whole.
                     </p>
                     <form class="newsletter-form" action="#">
                         <fieldset>
@@ -1294,6 +1446,11 @@
         </div>
     </div>
 </footer>
+
+<script src="../../public/js/script/jquery-3.3.1.slim.min.js"></script>
+<script src="../../public/js/script/jquery.validate.min.js"></script>
+<script src="../../public/js/script/additional-methods.min.js"></script>
+<script src="../../public/js/script/validateForm.js"></script>
 
 </body>
 </html>
