@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../public/css/w3.css">
+    <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
+    <script src="../../public/js/script/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../public/js/script/ajaxlibspopper.js1.14.6umdpopper.min.js"></script>
+    <script src="../../public/js/script/bootstrap4.2.1jsbootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        p {
+            text-align: justify;
+            opacity: 0.8;
+        }
+
+        a:link, a:visited {
+            text-decoration: none;
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        #navHome {
+            color: rgb(34, 34, 34);
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16px;
+            text-transform: uppercase;
+            background-color: #00b7ff;
+            box-shadow: 0 0 18px -4px #000;
+        }
+
+        #navHome a {
+            color: white;
+        }
+
+        #navHome a:hover {
+            color: #165fa5;
+        }
+
+        .navDropdown a:hover {
+            background-color: white;
+        }
+
+        .backgroundWhite {
+            background-color: white;
+        }
+
+        .nav-item {
+            padding-left: 10px;
+        }
+
+        .dropdown-item {
+            padding-top: 10px;
+        }
+
+        .navbar-brand {
+            margin-bottom: 3px;
+        }
+
+        .dropdown-menu {
+            top: 45px;
+        }
+
+        .form-control {
+            height: 50px;
+            border-radius: 2.25rem;
+            border: none;
+            background-color: #d0d4db;
+        }
+
+        .dropdown-menu {
+            background-color: white;
+        }
+
+        #footer {
+            background-color: #434343;
+        }
+
+        .list-unstyled {
+            padding-left: 0;
+            list-style: none;
+        }
+
+        #footer {
+            background-color: black;
+        }
+
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        #footer {
+            overflow: hidden;
+            padding: 77px 0 20px;
+            color: #999999;
+            background-color: #232323;
+        }
+
+        #footer .footer-logo {
+            width: 130px;
+            margin: 0 0 23px;
+        }
+
+        #footer .abt-txt {
+            font-size: 19px;
+            line-height: 25px;
+            color: #999999;
+            margin: -17px 0 0;
+        }
+
+        #footer .abt-txt p {
+            margin: 0 0 22px;
+        }
+
+        #footer .contact-list {
+            font-size: 19px;
+            line-height: 24px;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        #footer .contact-list li {
+            margin: 0 0 7px;
+        }
+
+        #footer .contact-list li .icon {
+            font-size: 16px;
+            line-height: 26px;
+            margin: 0 6px 0 0;
+        }
+
+        #footer .contact-list a {
+            color: #999999;
+            display: block;
+            -webkit-transition: all 0.25s linear;
+            -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+        }
+
+        #footer .contact-list a:hover {
+            color: #b0c83e;
+        }
+
+        #footer h3 {
+            font-size: 21px;
+            line-height: 25px;
+            color: #fff;
+            margin: 0 0 22px;
+        }
+
+        #footer .info-list {
+            overflow: hidden;
+            margin: 0;
+        }
+
+        #footer .info-list li {
+            margin: 0 0 10px;
+        }
+
+        #footer .info-list li a {
+            color: #999999;
+            -webkit-transition: all 0.25s linear;
+            -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+        }
+
+        #footer .info-list li a:hover {
+            color: #b0c83e;
+        }
+
+        #footer .info-list li .icon {
+            margin: 0 11px 0 0;
+        }
+
+        #footer .insta-list {
+            overflow: hidden;
+            margin: 0;
+            padding: 6px 0 0;
+        }
+
+        #footer .insta-list li {
+            width: 69px;
+            margin: 0 0 6px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #footer {
+            padding: 50px 0;
+        }
+
+        #footer .insta-list {
+            margin: 0 0 20px;
+        }
+
+        #footer .newsletter-form {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #footer .newsletter-form .form-control {
+            font-size: 16px;
+            line-height: 20px;
+            color: #999999;
+            font-style: italic;
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            outline: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background: #fff;
+            padding: 4px 55px 4px 25px;
+            border-radius: 70px;
+        }
+
+        #footer .newsletter-form .submit-btn {
+            position: absolute;
+            top: 3px;
+            right: 5px;
+            width: 42px;
+            height: 42px;
+            color: #fff;
+            font-size: 13px;
+            line-height: 20px;
+            outline: none;
+            border: 1px solid #b0c83e;
+            background: #b0c83e;
+        }
+
+        .round {
+            border-radius: 100%;
+        }
+
+        .btn-primary {
+            font: 700 13px/24px 'Nunito', sans-serif;
+            padding: 12px 35px;
+            color: #fff;
+            display: inline-block;
+            vertical-align: top;
+            border: 1px solid #b0c83e;
+            background: #b0c83e;
+            -webkit-transition: all 0.25s linear;
+            -o-transition: all 0.25s linear;
+            transition: all 0.25s linear;
+        }
+
+        .btn-primary:before {
+            color: #b0c83e;
+            background: none;
+            border: 1px solid #b0c83e;
+        }
+
+        .container-products {
+            position: relative;
+        }
+
+        .container-products:hover .image-products {
+            opacity: 0.3;
+        }
+
+        .container-products:hover .middle {
+            opacity: 1;
+        }
+
+        .image-products {
+            opacity: 1;
+            display: block;
+            transition: .5s ease;
+            backface-visibility: visible;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+    <div class="container header-area" style="margin-top: 15px; font-size: 20px">
+        <div class="row">
+            <div class="col-lg-6 col-xs-6">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-6">
+                        <ul class="list-unstyled contact-info">
+                            <li>
+                                <a href="mailto:petty@support.com" class="icon pull-left">
+                                    <i class="fas fa-envelope"
+                                       style="font-size: 35px;text-align: center;margin-right: 7px;margin-top: 12px;color: #00b7ff"></i>
+                                </a>
+                                <div class="align-left pull-left hidden-xs">
+                                    <span>Mail us:</span><br>
+                                    <p class="icon-phone-call" aria-hidden="true">
+                                        <a href="mailto:petty@support.com" style="color: #898989">anh000@fpt.edu.vn</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-xs-6">
+                        <ul class="list-unstyled contact-info">
+                            <li>
+                                <a href="tell:0945852000" class="icon pull-left">
+                                    <i class="fas fa-phone"
+                                       style="font-size: 35px;text-align: center;margin-right: 7px;margin-top: 12px;color: #00b7ff"></i>
+                                </a>
+                                <div class="align-left pull-left hidden-xs">
+                                    <span>Tell:</span><br>
+                                    <p class="icon-phone-call" aria-hidden="true">
+                                        <a href="tell:0945852000" style="color: #898989">0945852000</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xs-6" style="margin-top: 11px">
+                <div class="row">
+                    <div class="col-lg-4 col-xs-4 offset-lg-1 offset-xs-1 social-network">
+                        <div class="row" style="font-size: 27px">
+                            <div class="col-lg-3 col-xs-3">
+                                <a href="#"><i class="fab fa-google" aria-hidden="true" style="color: #00b7ff"></i></a>
+                            </div>
+                            <div class="col-lg-3 col-xs-3">
+                                <a href="#"><i class="fab fa-github" aria-hidden="true" style="color: #00b7ff"></i></a>
+                            </div>
+                            <div class="col-lg-3 col-xs-3">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true" style="color: #00b7ff"></i></a>
+                            </div>
+                            <div class="col-lg-3 col-xs-3">
+                                <a href="#"><i class="fab fa-instagram" aria-hidden="true"
+                                               style="color: #00b7ff"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xs-6 offset-lg-1 offset-xs-1" style="font-size: 22px">
+                        <div class="row">
+                            <div class="col-lg-6 col-xs-6">
+                                <ul class="list-unstyled contact-info">
+                                    <a href="#" class="icon pull-left">
+                                        <i class="fas fa-user"
+                                           style="font-size: 25px;text-align: center;margin-right: 8px;color: #00b7ff"></i>
+                                    </a>
+                                    <li>
+                                        <div class="align-left pull-left hidden-xs">
+                                            <span class="icon-user" aria-hidden="true">
+                                                <a href="#" style="color: black" data-toggle="modal"
+                                                   data-target="#exampleModalCenter">Account</a>
+                                                <div class="modal fade" id="exampleModalCenter" tabindex="-1"
+                                                     role="dialog" aria-labelledby="exampleModalCenterTitle"
+                                                     aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header" style="text-align: center">
+                                                                <h4 class="modal-title" id="exampleModalLongTitle">CONNECT WITH US</h4>
+                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                        aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <ul class="nav nav-tabs">
+                                                                    <li class="active"><a data-toggle="tab"
+                                                                                          href="#logIn"><h4>SIGN IN</h4></a></li> &nbsp; | &nbsp;
+                                                                    <li><a data-toggle="tab"
+                                                                           href="#createAnAccount"><h4>SIGN UP</h4></a></li>
+                                                                </ul>
+                                                                <div class="tab-content">
+                                                                    <div id="logIn" class="tab-pane active">
+                                                                        <form name="login-form" id="login-form">
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputEmail1">Email</label>
+                                                                                <input type="email" name="email"
+                                                                                       class="form-control"
+                                                                                       id="exampleInputEmail1"
+                                                                                       aria-describedby="emailHelp"
+                                                                                       placeholder="Enter Email">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputPassword1">Password</label>
+                                                                                <input type="password" name="password"
+                                                                                       class="form-control"
+                                                                                       id="exampleInputPassword1"
+                                                                                       placeholder="Enter Password">
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input type="checkbox"
+                                                                                       class="form-check-input"
+                                                                                       id="exampleCheck1"
+                                                                                       style="margin-top: 10px">
+                                                                                <label class="form-check-label"
+                                                                                       for="exampleCheck1">Remember Me</label>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <label>&nbsp;</label>
+                                                                                <button type="reset"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-reset" value="Reset"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 220px;text-align: center">Reset</button>
+                                                                                <button type="submit"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-create" value="Login"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 221px;text-align: center">Login</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div id="createAnAccount" class="tab-pane fade">
+                                                                        <form name="create-form" id="create-form">
+                                                                            <div class="form-group">
+                                                                                <label>First Name</label>
+                                                                                <input type="text" name="firstName"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter First Name">
+                                                                            </div>
+                                                                               <div class="form-group">
+                                                                                <label>Last Name</label>
+                                                                                <input type="text" name="lastName"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter Last Name">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputEmail1">Email</label>
+                                                                                <input type="email" name="email"
+                                                                                       class="form-control"
+                                                                                       aria-describedby="emailHelp"
+                                                                                       placeholder="Enter Email">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputPassword1">Password</label>
+                                                                                <input type="password" name="password"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter Password">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="exampleInputPassword1">Confirm Password</label>
+                                                                                <input type="password"
+                                                                                       name="confirm-password"
+                                                                                       class="form-control"
+                                                                                       placeholder="Enter Confirm Password">
+                                                                            </div>
+                                                                               <div class="form-group">
+                                                                                <label>Phone</label>
+                                                                                <label>
+                                                                                    <input class="form-control"
+                                                                                           type="text" name="phone"
+                                                                                           placeholder="Enter Phone Number">
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label>Address</label>
+                                                                                <label>
+                                                                                    <input class="form-control"
+                                                                                           type="text" name="address"
+                                                                                           placeholder="Enter Address">
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <label>&nbsp;</label>
+                                                                                <button type="reset"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-reset" value="Reset"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 221px;text-align: center">Reset</button>
+                                                                                <button type="submit"
+                                                                                        class="btn btn-primary"
+                                                                                        name="btn-create" value="Create"
+                                                                                        style="color: white;text-decoration: none;border-radius: 45px;background-color: yellowgreen;width: 220px;text-align: center">Create</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-xs-6">
+                                <ul class="list-unstyled contact-info">
+                                    <a href="#" class="icon pull-left">
+                                        <i class="fas fa-shopping-cart"
+                                           style="font-size: 25px;text-align: center;margin-right: 8px;color: #00b7ff"></i></a>
+                                    <li>
+                                        <div class="align-left pull-left hidden-xs">
+                                            <span class="icon-cart" aria-hidden="true">
+                                                <a href="cart.html" style="color: black">Cart</a>
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="navHome" class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class=" container container-fluid max-width-940" style="color: #0b51c5">
+            <a class="navbar-brand" href="homePages.html">
+                <img src="../../public/thumbnail/f07100c1-344a-4c77-b037-7365c4b04ace.png" alt="LOGO" width="220px"/>
+            </a>
+            <button class="navbar-toggler togglerNoBorder" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse backgroundWhite" id="navbarNavDropdown"
+                 style="background-color: #00b7ff">
+                <ul class="navbar-nav ml-auto" style="font-size: 20px">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="homePages.html" target="_blank">HOME </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px">PAGES</a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="aboutUs.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">ABOUT US</a>
+                            <a class="dropdown-item" href="gallery.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">GALLERY</a>
+                            <a class="dropdown-item" href="checkOut.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">CHECK OUT</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 21px">SHOP</a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">SHOP</a>
+                            <a class="dropdown-item" href="shopDetails.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">SHOP DETAILS</a>
+                            <a class="dropdown-item" href="cart.html" target="_blank"
+                               style="font-size: 20px;color: #00b7ff">CART</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html" target="_blank">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactUs.html" target="_blank">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<div class=" jumbotron-fluid">
+    <div class="containerJumbotron1">
+        <img src="../../public/thumbnail/img33.jpg" alt="Responsive image 01" class="img-responsive" style="width: 100%">
+        <div class="centered" style="font-size: 68px; text-shadow:5px 5px 10px black;color: white">SHOP DETAILS</div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-12 col-xs-8">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-xs-5">
+                    <br>
+                    <div style="background-color: white">
+                        <img src="../../public/thumbnail/img44.jpg" alt="img"
+                             style="margin-left: 40px;height: 203px;width: 203px;">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-xs-6">
+                            <a href=""><img src="../../public/thumbnail/img45.jpg" alt="img"
+                                            style="margin-left: 20px;height: 100px;width: 100px"></a>
+                        </div>
+                        <div class="col-lg-6 col-xs-6ss">
+                            <a href=""><img src="../../public/thumbnail/img46.png" alt="img"
+                                            style="margin-left: 20px;height: 100px;width: 30px"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-xs-7">
+                    <h3>Maxxi Dog</h3>
+                    <br>
+                    <h4 style="color: yellowgreen">$134.00</h4>
+                    <br>
+                    <p style="font-size: 18px">
+                        Omega Oil for Dogs – Maxx Iomega Best Omega 3 6 9 Dietary Supplement, Liquid Fish Oil, Essential
+                        Fatty Acids – Contains Biotin – Natural Antioxidants – Vitamins A, D & E – Use for your health
+                        in dogs – Anti-inflammatory Skin Care – Allergy Relief – Shiny Fur – Pump Spray Easy To Handle.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-4 col-xs-4">
+                            <label>
+                                <input class="formControlAddToCart" style="text-align: center" type="number" value="1"
+                                       min="0" max="100">
+                            </label>
+                        </div>
+                        <div class="col-lg-5 col-xs-5 offset-lg-1 offset-xs-1">
+                            <button type="button" class="btn" id="addToCart"
+                                    style="border-radius: 2.25em;width: 160px;height: 50px;background-color: yellowgreen;color: white">
+                                ADD TO CART
+                            </button>
+                        </div>
+                        <div class="col-lg-2 col-xs-2"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#description"><h4>Description</h4></a></li> &nbsp; |
+                &nbsp;
+                <li><a data-toggle="tab" href="#review"><h4>Ingredient</h4></a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="description" class="tab-pane  active">
+                    <ul>Sold by Maxxi Dog and Fulfilled by Patrona Shop. For Returns, please check the seller link. Gift-wrap
+                        available.
+                        <br>
+                        1 new from EUR 20.22
+                        <li>Even Wählerische dogs love the taste and the you love the results (and the practical pump
+                            for easy to use).
+                        </li>
+                        <li>If your dog dry, itchy, flaky skin and a matte and Stumpfem suffers with, Maxx Iomega is
+                            just what you need for your dog. Maxx Iomega promote healthy skin and ensures a soft, shiny
+                            coat, with no Fischigen odours.
+                        </li>
+                        <li>Helps with different skin problems such as allergies, dry skin, red plaque, infections,
+                            dandruff, scabs and Granulomen. Maxx Iomega also supports healthy joints, strengthens nails,
+                            reduces tear stains and helps the dog for the recovery of operations.
+                        </li>
+                        <li>
+                            Maxx Iomega delivers results. Omega 3 is anti-inflammatory (contains EPA + DHA) and is in a
+                            number of different ways good for your health of your dog. Omega 6 is an essential fatty
+                            acid and the best fatty acid for healthy skin and shiny coat. Omega 9 regulates the blood
+                            sugar and cholesterol. Biotin supports healthy skin and hair and strengthens nails. Vitamin
+                            A, D & E bieten holistic treat effects.
+                        </li>
+                    </ul>
+                </div>
+                <div id="review" class="tab-pane fade">
+                    <p>
+                        Item Weight: 386g <br>
+                        Product Dimensions: 20 x 8 x 6 cm <br>
+                        Item model number: FBA_MD-MOO100 <br>
+                        Weight: 386 Grams <br>
+                        Volume: 296 ml <br>
+                        Storage Information: Bewahren Sie das Mittel an einem kühlen Ort auf. Vermeiden Sie direktes
+                        Sonnenlicht. Kühlen ist nicht notwendig aber sicher.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <h3 style="text-align: center">Related Products</h3>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-4" style="padding-right: 10px">
+                    <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                        <img class="card-img-top image-products" src="../../public/thumbnail/img14.jpg" alt="Card image cap">
+                        <div class="middle">
+                            <div class="row">
+                                <button type="button" class="btn"
+                                        style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                    DETAILS
+                                </button>
+                            </div>
+                            <div class="row" style="padding-top: 12px">
+                                <button type="button" class="btn"
+                                        style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                    ADD TO CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text" style="text-align: center">Pets Purset</h4>
+                        <p class="card-number"
+                           style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$58.00</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="padding-right: 10px">
+                    <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                        <img class="card-img-top image-products" src="../../public/thumbnail/img15.jpg" alt="Card image cap">
+                        <div class="middle">
+                            <div class="row">
+                                <button type="button" class="btn"
+                                        style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                    DETAILS
+                                </button>
+                            </div>
+                            <div class="row" style="padding-top: 12px">
+                                <button type="button" class="btn"
+                                        style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                    ADD TO CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text" style="text-align: center">Nutri-Pooch Dog</h4>
+                        <p class="card-number"
+                           style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$58.00</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="padding-right: 10px">
+                    <div class="card container-products" style="width: 18rem; border: 0px solid rgba(0,0,0,.125)">
+                        <img class="card-img-top image-products" src="../../public/thumbnail/img39.jpg" alt="Card image cap">
+                        <div class="middle">
+                            <div class="row">
+                                <button type="button" class="btn"
+                                        style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                    DETAILS
+                                </button>
+                            </div>
+                            <div class="row" style="padding-top: 12px">
+                                <button type="button" class="btn"
+                                        style="border-radius: 2.25em;width: 135px;height: 50px;background-color: #b0c83e;color: white">
+                                    ADD TO CART
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text" style="text-align: center">Lintbells YuMove</h4>
+                        <p class="card-number"
+                           style="font-size: 20px;font-weight: bold;text-align: center;color: yellowgreen">$58.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-xs-8">
+            <input type="search"
+                   style="border-radius: 2.25em;height: 50px;width: 320px;background-color: #e2e2e2;border: none"
+                   placeholder="Search....">
+            <br>
+            <br>
+            <h3>Categories</h3>
+            <br>
+            <div class="icon" style="opacity: 0.7">
+                <a href="#" style="font-size: 17px;color: black"><i class="fas fa-paw"
+                                                                    style="font-size: 18px;color:black"></i> &nbsp;
+                    Dog[30]</a><br><br>
+                <a href="#" style="font-size: 17px;color: black"><i class="fas fa-paw"
+                                                                    style="font-size: 18px;color:black"></i> &nbsp;
+                    Cats[46]</a><br><br>
+                <a href="#" style="font-size: 17px;color: black"><i class="fas fa-paw"
+                                                                    style="font-size: 18px;color:black"></i> &nbsp;
+                    Birds[58]</a><br><br>
+                <a href="#" style="font-size: 17px;color: black"><i class="fas fa-paw"
+                                                                    style="font-size: 18px;color:black"></i> &nbsp;
+                    Cages[20]</a><br><br>
+                <a href="#" style="font-size: 17px;color: black">
+                    <i class="fas fa-paw" style="font-size: 18px;color:black"></i> &nbsp;
+                    Foods[62]</a><br><br>
+            </div>
+            <h3>Features Products</h3><br>
+            <div class="row">
+                <div class="col-lg-3 col-xs-3">
+                    <img src="../../public/thumbnail/img40.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-lg-9 col-xs-9">
+                    <p style="font-size: 17px">Premier Pet+ for Dog</p>
+                    <p style="color: yellowgreen">$30.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-xs-3">
+                    <img src="../../public/thumbnail/img41.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-lg-9 col-xs-9">
+                    <p style="font-size: 17px">Nutri_Pooch Vitamin+</p>
+                    <p style="color: yellowgreen">$30.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-xs-3">
+                    <img src="../../public/thumbnail/img42.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-lg-9 col-xs-9">
+                    <p style="font-size: 17px">Joint Support for Cats</p>
+                    <p style="color: yellowgreen">$30.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="codeSale" style="margin-top: 100px; background-image: url(../../public/thumbnail/img26.jpg);height: 120px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" style="padding-top: 35px">
+                <h2 style="color: white">Get 50% offer for all pet products</h2>
+            </div>
+            <div class="col-lg-4 offset-lg-2" style="padding-top: 40px">
+                <h4 style="color: white">Coupon Code: PATRONA1234</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 abt-txt">
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="../../public/thumbnail/f07100c1-344a-4c77-b037-7365c4b04ace.png" alt="LOGO Patrona Pet"
+                             style="height: 65px;width: 249px"/>
+                    </a>
+                </div>
+                <p>
+                    A dog is the only thing on Earth that loves you more than he loves himself.
+                </p>
+                <ul class="contact-list list-unstyled">
+                    <li>
+                        <span class="icon">
+                            <i class="fa fa-map-signs" aria-hidden="true">
+                            </i>
+                        </span>
+                        No: 8 Ton That Thuyet.
+                    </li>
+                    <li>
+                        <a href="mailto:pettyshop@mail.com">
+                            <span class="icon">
+                                <i class="fa fa-envelope-o" aria-hidden="true">
+                                </i>
+                            </span>
+                            pettyshop@mail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fa fa-phone" aria-hidden="true">
+                                </i>
+                            </span> (+84) 945 852 000
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <h3>Information</h3>
+                <ul class="info-list list-unstyled" style="font-size: 19px">
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fa fa-paw" aria-hidden="true">
+                                </i>
+                            </span>
+                            Pet Adoption
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fa fa-paw" aria-hidden="true">
+                                </i>
+                            </span>
+                            Active Dogs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fa fa-paw" aria-hidden="true">
+                                </i>
+                            </span>
+                            Pet Daycare
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fa fa-paw" aria-hidden="true">
+                                </i>
+                            </span>
+                            Dog Training
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fa fa-paw" aria-hidden="true">
+                                </i>
+                            </span>
+                            Pet Helpcare
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <h3>Instagram</h3>
+                <ul class="insta-list list-unstyled">
+                    <li>
+                        <a href="#">
+                            <img src="../../public/thumbnail/img27.jpg" alt="footer-img" class="img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../public/thumbnail/img28.jpg" alt="footer-img" class="img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../public/thumbnail/img29.jpg" alt="footer-img" class="img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../public/thumbnail/img30.jpg" alt="footer-img" class="img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../public/thumbnail/img31.jpg" alt="footer-img" class="img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../public/thumbnail/img32.jpg" alt="footer-img" class="img-responsive">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <h3>Newsletter</h3>
+                <div class="newsletter" style="font-size: 19px">
+                    <p> Dogs are not our whole life, but they make our lives whole.
+                    </p>
+                    <form class="newsletter-form" action="#">
+                        <fieldset>
+                            <input class="form-control" placeholder="Email" type="email">
+                            <button class="submit-btn round" type="submit">
+                                <i class="fa fa-arrow-right" aria-hidden="true">
+                                </i>
+                            </button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../../public/js/script/jquery-3.3.1.slim.min.js"></script>
+<script src="../../public/js/script/jquery.validate.min.js"></script>
+<script src="../../public/js/script/additional-methods.min.js"></script>
+<script src="../../public/js/script/validateForm.js"></script>
+</body>
+</html>
